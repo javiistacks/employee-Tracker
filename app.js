@@ -105,3 +105,48 @@ connection.connect((err) => {
     console.log(" ");
     connection.end();
   };
+
+  const figletStart = function () {
+    figlet.text(
+      "Employee Roster",
+      {
+        font: "ANSI Shadow",
+        horizontalLayout: "Fitted",
+        verticalLayout: "Fitted",
+        width: 200,
+        whitespaceBreak: true,
+      },
+      function (err, data) {
+        if (err) {
+          console.log("Something went wrong...");
+          console.dir(err);
+          return;
+        }
+        console.log(colors.rainbow(data));
+        console.log(" ");
+        start();
+      }
+    );
+  };
+  
+  const figletEnd = function () {
+    figlet.text(
+      "Exit",
+      {
+        font: "ANSI Shadow",
+        horizontalLayout: "Fitted",
+        verticalLayout: "Fitted",
+        width: 200,
+        whitespaceBreak: true,
+      },
+      function (err, data) {
+        if (err) {
+          console.log("Something went wrong...");
+          console.dir(err);
+          return;
+        }
+        console.log(colors.rainbow(data));
+      }
+    );
+  }
+  
