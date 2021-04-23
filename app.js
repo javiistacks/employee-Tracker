@@ -98,3 +98,10 @@ connection.connect((err) => {
       }
     });
   }
+
+  const exitRoster = () => {
+    console.log(" ");
+    figletEnd();
+    console.log(" ");
+    connection.end();
+  };
