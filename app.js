@@ -21,3 +21,80 @@ const connection = mysql.createConnection({
   password: "Leaders1354!",
   database: "employee_roster4",
 });
+
+
+connection.connect((err) => {
+    if (err) throw err;
+    figletStart();
+    console.log(" ");
+  });
+  
+  function start() {
+    inquirer.prompt({
+      name: "actions",
+      type: "list",
+      message: ("Please select one of the following actions."),
+      choices: [
+          "View All Employees"
+        , "View All Roles"
+        , "View All Departments"
+        , "View Employees by Manager"
+        // , "View Total Budget by Dept"
+        , "Add Employee"
+        , "Add Role"
+        , "Add Department"
+        , "Update Employee Role"
+        , "Update Employee Manager"
+        , "Delete Employee"
+        , "Delete Role"
+        , "Delete Department"
+        , "Exit"
+      ],
+    })
+    .then(userInput => {
+      switch (userInput.actions) {
+        case "View All Employees":
+          viewAllEmployees(connection, start);
+          break;
+        case "View All Roles":
+          viewAllRoles(connection, start);
+          break;
+        case "View All Departments":
+          viewAllDept(connection, start);
+          break;  
+        case "View Employees by Manager":
+          viewEmployeesByMgr(connection, start);
+          break;
+        // case "View Total Budget by Dept":
+        //   viewTotalBudgetByDept(connection, start);
+        //   break;
+        case "Add Employee":
+          addEmployee(connection, start);
+          break;
+        case "Add Role":
+          addRole(connection, start);
+          break;
+        case "Add Department":
+          addDept(connection, start);
+          break;
+        case "Update Employee Role":
+          updateEmployeeRole(connection, start);
+          break;
+        case "Update Employee Manager":
+          updateEmployeeMgr(connection, start);
+          break;
+        case "Delete Employee":
+          deleteEmployee(connection, start);
+          break;
+        case "Delete Role":
+          deleteRole(connection, start);
+          break;
+        case "Delete Department":
+          deleteDept(connection, start);
+          break;
+        case "Exit":
+          exitRoster();
+          break;
+      }
+    });
+  }
