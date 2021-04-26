@@ -10,7 +10,7 @@
 * [Demo](#demo)
 * [Sample](#sample)
 * [Installations](#installations)
-* [Usage](#Usage)
+* [Usage](#usage)
 * [Created by](#created-by)
 * [Repository](#repository)
 * [Deployment](#deployment)
