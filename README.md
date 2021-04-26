@@ -23,8 +23,8 @@ An Employee Management CLI interface capable of creating, viewing, updating, and
 ## Demo
 ![Screencast Demo](./Assets/exampleVideo.gif)
 
-
-
+Watch a demo of the application on Youtube. 
+https://youtu.be/y42UnHpQbIc
 
 
 ## Sample 
