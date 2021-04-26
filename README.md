@@ -10,6 +10,7 @@
 * [Demo](#demo)
 * [Sample](#sample)
 * [Installations](#installations)
+* [Usage](#Usage)
 * [Created by](#created-by)
 * [Repository](#repository)
 * [Deployment](#deployment)
@@ -35,7 +36,8 @@ An Employee Management CLI interface capable of creating, viewing, updating, and
 ## Installations
 Type the following npm install commands: 
 ```
-npm i mysql inquirer console-table-printer figlet colors
+1. npm i mysql inquirer console-table-printer figlet colors
+2. npm init -y
 ```
 on the command line while in the employee-Tracker folder. 
 
@@ -56,6 +58,14 @@ on the command line while in the employee-Tracker folder.
 
 * [colors](https://www.npmjs.com/package/colors)
   * Adds colors to the the console text.  
+
+## Usage 👨🏽‍💻
+`Open in Integrated Terminal`
+
+To Run application while in the employee-Tracker folder type 
+```
+npm start 
+```
 
 
 ## Created by
