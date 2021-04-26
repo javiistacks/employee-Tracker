@@ -17,7 +17,7 @@
 
 
  ## Introduction
-An application that can be used to write, save, and delete notes. This application uses an express backend and can save and retrieve note data from a JSON file.
+An Employee Management CLI interface capable of creating, viewing, updating, and deleting records and saving them in a MySql database.
 
 ## Demo
 ![Screencast Demo](./Assets/exampleVideo.gif)
@@ -33,19 +33,30 @@ An application that can be used to write, save, and delete notes. This applicati
 
 
 ## Installations
-Type the following npm install commands one at a time: npm i, npm i express, npm i uuid, and npm i path in the command line while in the note-Taker folder. 
+Type the following npm install commands: 
+```
+npm i mysql inquirer console-table-printer figlet colors
+```
+on the command line while in the employee-Tracker folder. 
 
 * [npm](https://docs.npmjs.com/cli/v7/commands/npm-install)
   * npm is the package manager for the Node JavaScript platform. 
 
-* [express](https://www.npmjs.com/package/express)
-  * Allows to dynamically render HTML Pages based on passing arguments to templates.
+* [mysql](https://www.npmjs.com/package/mysql)
+  * Enables the application to create a connection to the mysql database.
 
-* [uuid](https://www.npmjs.com/package/uuid)
-  * (Universally unique identifier) uuid package helps create unique ids and attach it with user information and save to the database.
- 
-* [path](https://www.npmjs.com/package/path)
-  * The Path module provides a way of working with directories and file paths. 
+* [inquirer](https://www.npmjs.com/package/inquirer)
+  * A collection of common interactive command line user interfaces.
+  
+* [console-table-printer](https://www.npmjs.com/package/console-table-printer)
+  * Creates the tables needed to help organize data on the console.
+  *   
+* [figlet](https://www.npmjs.com/package/figlet)
+  * Enables the text function. 
+
+* [colors](https://www.npmjs.com/package/colors)
+  * Adds colors to the the console text.  
+
 
 ## Created by
 * [Javiann Marrero](https://github.com/javiistacks)
@@ -53,7 +64,7 @@ Type the following npm install commands one at a time: npm i, npm i express, npm
 
 ## Repository
 ### Github Repository
-Repository at [note-Taker](https://github.com/javiistacks/employee-Tracker)
+Repository at [employee-Tracker](https://github.com/javiistacks/employee-Tracker)
 
 
 
