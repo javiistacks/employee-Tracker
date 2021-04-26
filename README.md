@@ -21,9 +21,9 @@
 An Employee Management CLI interface capable of creating, viewing, updating, and deleting records and saving them in a MySql database.
 
 ## Demo
-![Screencast Demo](./Assets/exampleVideo.gif)
 
-Watch a demo of the application on Youtube. 
+Watch a demo of the application on Youtube.[My Sql Employee-Tracker](https://youtu.be/y42UnHpQbIc)
+
 https://youtu.be/y42UnHpQbIc
 
 
