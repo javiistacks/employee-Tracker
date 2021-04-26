@@ -48,7 +48,7 @@ on the command line while in the employee-Tracker folder.
   
 * [console-table-printer](https://www.npmjs.com/package/console-table-printer)
   * Creates the tables needed to help organize data on the console.
-  *   
+  
 * [figlet](https://www.npmjs.com/package/figlet)
   * Enables the text function. 
 
