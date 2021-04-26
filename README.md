@@ -13,7 +13,6 @@
 * [Usage](#usage)
 * [Created by](#created-by)
 * [Repository](#repository)
-* [Deployment](#deployment)
 * [License](#license)
 
 
