@@ -24,14 +24,13 @@ An Employee Management CLI interface capable of creating, viewing, updating, and
 ![Screencast Demo](./Assets/exampleVideo.gif)
 
 
+
+
+
 ## Sample 
- These are samples of the employee-Tracker application. 
+ This is a sample of the employee-Tracker application. 
+ <img src="./Assets/sample.png">
  
-<img src="./Assets/startPage.jpg">
- 
-<img src="./Assets/example.jpg">
-
-
 
 ## Installations
 Type the following npm install commands: 
