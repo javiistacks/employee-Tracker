@@ -24,7 +24,6 @@ An Employee Management CLI interface capable of creating, viewing, updating, and
 
 Watch a demo of the application on Youtube.[My Sql Employee-Tracker](https://youtu.be/y42UnHpQbIc)
 
-https://youtu.be/y42UnHpQbIc
 
 
 ## Sample 
