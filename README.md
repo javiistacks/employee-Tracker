@@ -6,7 +6,7 @@
 # employee-Tracker
 
 ## Table of Contents
-* [Intro](#intro)
+* [Introduction](#introduction)
 * [Demo](#demo)
 * [Sample](#sample)
 * [Installations](#installations)
