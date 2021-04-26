@@ -25,7 +25,7 @@ An Employee Management CLI interface capable of creating, viewing, updating, and
 
 
 ## Sample 
- These are samples of the note-Taker application. 
+ These are samples of the employee-Tracker application. 
  
 <img src="./Assets/startPage.jpg">
  
