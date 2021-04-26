@@ -61,7 +61,7 @@ on the command line while in the employee-Tracker folder.
  
  ## Usage
 
-`Open in Integrated Terminal`
+`👨🏽‍💻Open in Integrated Terminal`
 
 To Run application while in the employee-Tracker folder type 
 ```
