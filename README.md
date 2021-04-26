@@ -16,13 +16,12 @@
 * [License](#license)
 
 
- ## Introduction
+## Introduction
 An Employee Management CLI interface capable of creating, viewing, updating, and deleting records and saving them in a MySql database.
 
 ## Demo
 
 Watch a demo of the application on [Youtube. My Sql Employee-Tracker.](https://youtu.be/y42UnHpQbIc)
-
 
 
 ## Sample 
@@ -60,15 +59,14 @@ on the command line while in the employee-Tracker folder.
   * Allows to manage node as a normal dependency.
  
  
+ ## Usage 👨🏽‍💻
 
-## Usage 👨🏽‍💻
 `Open in Integrated Terminal`
 
 To Run application while in the employee-Tracker folder type 
 ```
 npm start 
 ```
-
 
 ## Created by
 * [Javiann Marrero](https://github.com/javiistacks)
@@ -77,7 +75,6 @@ npm start
 ## Repository
 ### Github Repository
 Repository at [employee-Tracker](https://github.com/javiistacks/employee-Tracker)
-
 
 
 ## License
