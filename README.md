@@ -34,7 +34,7 @@ Watch a demo of the application on [Youtube. My Sql Employee-Tracker.](https://y
 ## Installations
 Type the following npm install commands: 
 ```
-1. npm i mysql inquirer console-table-printer figlet colors
+1. npm i mysql inquirer console-table-printer figlet colors node
 2. npm init -y
 ```
 on the command line while in the employee-Tracker folder. 
@@ -56,6 +56,11 @@ on the command line while in the employee-Tracker folder.
 
 * [colors](https://www.npmjs.com/package/colors)
   * Adds colors to the the console text.  
+
+* [node](https://www.npmjs.com/package/node)
+  * Allows to manage node as a normal dependency.
+ 
+ 
 
 ## Usage 👨🏽‍💻
 `Open in Integrated Terminal`
