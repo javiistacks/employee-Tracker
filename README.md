@@ -59,7 +59,7 @@ on the command line while in the employee-Tracker folder.
   * Allows to manage node as a normal dependency.
  
  
- ## Usage 👨🏽‍💻
+ ## Usage
 
 `Open in Integrated Terminal`
 
